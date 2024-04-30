@@ -1,0 +1,120 @@
+/* Resetting default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header */
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the navigation links */
+nav a {
+    color: blue;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold; /* Make the links bold */
+}
+
+/* Change color of navigation links on hover */
+nav a:hover {
+    color: black;
+}
+
+/* Add bottom margin to h2 */
+.maincontent-index h2 {
+    margin-bottom: 20px; 
+}
+
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set box-sizing to border-box for all elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Choose your desired font family */
+    line-height: 1.6; /* Adjust line height as needed */
+    background-color: #f5f5f5; /* Set your desired background color */
+    color: #333; /* Set your desired text color */
+}
+
+/* Main content styles */
+.main-content {
+    text-align: center; /* Center content within main */
+    max-width: 800px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center main content horizontally */
+    padding: 20px; /* Add padding as needed */
+}
+
+/* Image styles */
+.index-pic {
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 20px auto; /* Centers the image horizontally with some vertical margin */
+    max-width: 100%; /* Ensure image does not exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+        /* CSS for product layout */
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .product {
+            width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .product {
+                width: calc(50% - 20px);
+            }
+        }
+
+.account.pic{
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 20px auto; /* Centers the image horizontally with some vertical margin */
+    max-width: 100%; /* Ensure image does not exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+
+}
+
+
+
+
+
+
+
